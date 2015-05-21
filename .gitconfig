@@ -1,0 +1,13 @@
+[user]
+	name = hiroolie
+	email = hiroolie@gmail.com
+[core]
+	editor = vim -c \"set fenc=utf-8\"
+	precomposeunicode = true
+	quotepath = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[push]
+	default = simple

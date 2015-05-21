@@ -1,0 +1,12 @@
+{
+    "chef": {
+        "chef_server_url":"https://chef01.mini.com/organizations/czs",
+        "validation_client_name":"czs-validator",
+        "validation_key_path":"/home/vagrant/chef-repo/.chef/czs-validator.pem",
+        "node_name":"hiroolie",
+        "client_key":"/home/vagrant/chef-repo/.chef/hiroolie.pem"
+    },
+    "ssl": {
+        "verify": false
+    }
+}
