@@ -1,0 +1,21 @@
+{
+  "name": "mysql_initial_install",
+  "description": "Install and settings for MySQL server",
+  "default_attributes": {
+    "run_list": [
+      "recipe[mysql::server]"
+    ],
+    "mysql": {
+      "version": "5.6",
+      "port": "3306",
+      "server_root_password": "passw0rd",
+      "server_debian_password": "passw0rd",
+      "server_repl_password": "passw0rd",
+      "remove_anonymous_users": true,
+      "remove_test_database": true
+    }
+  },
+  "run_list": [
+    "recipe[mysql::server]"
+  ]
+}
