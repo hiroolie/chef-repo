@@ -1,0 +1,7 @@
+name             'berks-cookbooks'
+maintainer       'YOUR_NAME'
+maintainer_email 'YOUR_EMAIL'
+license          'All rights reserved'
+description      'Installs/Configures berks-cookbooks'
+long_description 'Installs/Configures berks-cookbooks'
+version          '0.1.0'

@@ -1,0 +1,13 @@
+source "https://supermarket.chef.io"
+
+# コミュニティクックブック
+cookbook 'mysql','~> 5.3.6'
+cookbook 'database'
+
+cookbook 'postgresql', '~> 3.4.19'
+cookbook 'openssl'
+
+cookbook 'apache2', '~> 3.1.0'
+cookbook 'php', '~> 1.5.0'
+
+metadata
